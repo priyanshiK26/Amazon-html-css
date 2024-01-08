@@ -1,0 +1,27 @@
+
+.nav-belt {
+  background-color: black;
+  padding-top: 12px;
+}
+
+img {
+  width: 74px;
+  height: 32px;
+}
+
+.special {
+  color: white;
+}
+
+p,
+h4 {
+  margin: 0;
+}
+
+p {
+  font-size: smaller;
+}
+
+.location {
+  margin-left: 15px;
+}
