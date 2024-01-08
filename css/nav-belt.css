@@ -1,0 +1,58 @@
+.nav-belt {
+  background-color: black;
+  height: 60px;
+  color: white;
+  padding: 3px 10px;
+}
+
+#nav-logo {
+  height: 50%;
+}
+
+.btn {
+  width: 160px;
+  height: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+#search {
+  margin-left: -6px;
+  background-color: #febd69;
+  border: #febd69 2px solid;
+  border-radius: 0 2px 2px 0;
+}
+
+#search i {
+  color: black;
+}
+
+#drop {
+  margin-right: -6px;
+  border-radius: 2px 0 0 2px;
+  border-color: #e6e6e6;
+}
+
+#drop i {
+  color: grey;
+}
+
+.special {
+  color: white;
+}
+
+p,
+h4 {
+  margin: 0;
+}
+
+p {
+  font-size: smaller;
+}
+.loc-icon {
+  padding: 12px 5px 0px 5px;
+}
+
+.nav-row2 {
+  width: 100%;
+}
