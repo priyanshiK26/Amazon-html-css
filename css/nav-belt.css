@@ -1,8 +1,11 @@
 .nav-belt {
   background-color: black;
   height: 60px;
+  width: 100%;
   color: white;
   padding: 3px 10px;
+  position: fixed;
+  top: 0;
 }
 
 #nav-logo {
@@ -16,7 +19,7 @@
 }
 
 .nav-fill {
-  width: 62%;
+  width: 60%;
 }
 
 #nav-form {
@@ -42,4 +45,23 @@
 
 .nav-row2 {
   width: 100%;
+}
+
+.language{
+  color: white;
+}
+.language i{
+  color: white;
+}
+
+.nav-right button{
+background-color: black;
+color: white;
+border: none;
+}
+
+.nav-right select{
+  background-color: black;
+  color: white;
+  border: none;
 }
