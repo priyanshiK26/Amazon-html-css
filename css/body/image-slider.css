@@ -1,0 +1,24 @@
+.slider {
+  position: relative;
+  max-width: 100%;
+}
+
+.next {
+  color: black;
+  z-index: 10;
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
+  right: 5px;
+  font-weight: 700px;
+}
+
+.prev {
+  color: black;
+  z-index: 10;
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
+  left: 5px;
+  font-weight: 700px;
+}
