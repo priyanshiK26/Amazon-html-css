@@ -118,11 +118,50 @@
   background-color: white;
 }
 
-.see-more a{
+.see-more a {
   text-decoration: none;
+  align-self: flex-start;
 }
 
-.see-more a:hover{
+.see-more a:hover {
   color: brown;
   text-decoration: underline;
+}
+
+.products {
+  overflow: scroll;
+}
+
+#bestProducts h1 {
+  align-self: flex-start;
+}
+
+.books {
+  overflow: scroll;
+}
+
+.book{
+  margin: 20px;
+}
+
+#bestBooks h1 {
+  align-self: flex-start;
+}
+
+#sign-in{
+  height: 100px;
+  width: 100%;
+}
+
+#sign-in button{
+  background-color: #ffc52f;
+  border: #ffc52f 1px solid;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.line{
+border: 1px #e3e6e6 solid;
+width: 100%;
+margin: 10px 0;
 }
