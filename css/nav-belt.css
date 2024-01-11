@@ -1,5 +1,5 @@
 .nav-belt {
-  background-color: black;
+  background-color: #131921;
   height: 60px;
   width: 100%;
   color: white;
@@ -19,7 +19,7 @@
 }
 
 .nav-fill {
-  width: 60%;
+  width: 50%;
 }
 
 #nav-form {
@@ -47,21 +47,82 @@
   width: 100%;
 }
 
-.language{
+.language {
   color: white;
 }
-.language i{
+.language i {
   color: white;
 }
-
-.nav-right button{
-background-color: black;
-color: white;
-border: none;
+.nav-right {
+  padding: 2px;
 }
-
-.nav-right select{
-  background-color: black;
+.nav-right button {
+  background-color: #131921;
   color: white;
   border: none;
+}
+
+.nav-right select {
+  background-color: #131921;
+  color: white;
+  border: none;
+}
+
+.nav-main {
+  background-color: #232f3e;
+  margin-top: 60px;
+  height: 36px;
+  color: white;
+}
+
+.nav-main button {
+  color: white;
+  background-color: #232f3e;
+  border: none;
+  padding: 8px;
+}
+
+.nav-main button:hover {
+  border: white solid 1px;
+}
+.slider {
+  position: relative;
+  max-width: 100%;
+}
+
+.next {
+  color: black;
+  z-index: 10;
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
+  right: 5px;
+  font-weight: 700px;
+}
+
+.prev {
+  color: black;
+  z-index: 10;
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
+  left: 5px;
+  font-weight: 700px;
+}
+
+#cards {
+  background-color: #e3e6e6;
+}
+
+.card-data {
+  background-color: white;
+}
+
+.see-more a{
+  text-decoration: none;
+}
+
+.see-more a:hover{
+  color: brown;
+  text-decoration: underline;
 }
