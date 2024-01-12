@@ -4,18 +4,24 @@
   width: 100%;
   color: white;
   padding: 3px 10px;
+  overflow: hidden;
   position: fixed;
   top: 0;
 }
 
 #nav-logo {
   height: 50%;
+  flex-basis: 25%;
 }
 
 #nav-search-btn {
   background-color: #febd69;
   border: #febd69 2px solid;
   border-radius: 0 2px 2px 0;
+}
+
+.nav-fill btn{
+  color: white;
 }
 
 .nav-fill {
@@ -27,12 +33,26 @@
   width: 100%;
 }
 
+#nav-form select{
+  background-color: #ccc;
+}
+
+#nav-form button{
+  width: 29px;
+}
+
+.lens{
+  background-color: white;
+  border: none;
+}
+
 #nav-search {
   width: 100%;
   flex-basis: 66%;
   flex-grow: 1;
   border: none;
 }
+
 
 .nav-dropdown {
   border-radius: 4px 0 0 4px;
@@ -55,6 +75,7 @@
 }
 .nav-right {
   padding: 2px;
+  flex-basis: 25%;
 }
 .nav-right button {
   background-color: #131921;
