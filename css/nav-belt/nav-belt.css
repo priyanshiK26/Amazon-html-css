@@ -20,9 +20,6 @@
   border-radius: 0 2px 2px 0;
 }
 
-.nav-fill btn{
-  color: white;
-}
 
 .nav-fill {
   width: 50%;
@@ -33,17 +30,37 @@
   width: 100%;
 }
 
-#nav-form select{
-  background-color: #ccc;
+#nav-form input{
+  padding: 4px;
 }
 
-#nav-form button{
+#nav-form input:focus {
+  outline: none;
+}
+
+#nav-form:focus-within {
+  border: #febd69 4px solid;
+  border-radius: 8px;
+}
+
+#nav-form select {
+  background-color: #ccc;
+  width: 35px;
+}
+
+#nav-form button {
   width: 29px;
 }
 
-.lens{
+.lens {
   background-color: white;
   border: none;
+  height: 100%;
+}
+
+.lens img{
+  height: 17px;
+  width: 17px;
 }
 
 #nav-search {
@@ -52,7 +69,6 @@
   flex-grow: 1;
   border: none;
 }
-
 
 .nav-dropdown {
   border-radius: 4px 0 0 4px;
@@ -67,16 +83,11 @@
   width: 100%;
 }
 
-.language {
-  color: white;
-}
-.language i {
-  color: white;
-}
 .nav-right {
   padding: 2px;
   flex-basis: 25%;
 }
+
 .nav-right button {
   background-color: #131921;
   color: white;
@@ -89,10 +100,25 @@
   border: none;
 }
 
+.nav-right>div:hover{
+  padding: 10px;
+  outline: white 1px solid;
+  display: block;
+  box-sizing: border-box;
+}
+.nav-left>div:hover{
+  display: block;
+  padding: 10px;
+  outline: white solid;
+  box-sizing: content-box;
+}
+
 .nav-main {
   background-color: #232f3e;
   margin-top: 60px;
   height: 36px;
+  width: 100%;
+  padding: 3px 10px;
   color: white;
 }
 
@@ -104,5 +130,5 @@
 }
 
 .nav-main button:hover {
-  border: white solid 1px;
+  outline: white solid 1px;
 }

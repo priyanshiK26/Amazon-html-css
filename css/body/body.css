@@ -1,9 +1,11 @@
 #cards {
-  background-color: #e3e6e6;
+  position: absolute;
+  top: 20%;
 }
 
 .card-data {
   background-color: white;
+  /* height: 400px; */
 }
 
 .see-more a {
@@ -37,7 +39,7 @@
 }
 
 #sign-in {
-  height: 100px;
+  height: 200px;
   width: 100%;
 }
 
@@ -46,10 +48,12 @@
   border: #ffc52f 1px solid;
   border-radius: 5px;
   width: 100px;
+  margin: 10px 60px;
+  padding: 5px 40px;
 }
 
 .line {
   border: 1px #e3e6e6 solid;
   width: 100%;
-  margin: 10px 0;
+  margin: 30px 0;
 }
